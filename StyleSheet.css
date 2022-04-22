@@ -4,18 +4,34 @@ ul.Menu li{
     padding: 10px; 
     margin-bottom: 15px; 
     background-color: black;
-    border: 3px solid white;
+    margin-left: 10px;
 }
 ul.Menu li a{
     text-decoration: none; 
     color: white;
 }
 
-.Menu{
-    Background-color: red;
-}
-}
 .MenuBar{
     font-size: 24px; 
-background-color: blue;
+    border: 2px solid darkslategrey;
+    background-color: white;
+    height: 47px;
 }
+ul.Menu li:hover{
+    background-color: white;
+}
+ul.Menu li a:hover{
+    color: black;
+}
+
+h2{
+    margin-bottom: 5px;
+}
+.self{
+    width: 225px; 
+    height: 250px;
+    border: 2px solid darkslategray;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
