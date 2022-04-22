@@ -1,0 +1,15 @@
+ul.Menu li{
+    float: left; 
+    text-align: center; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    background-color: black;
+    border: 3px solid white;
+}
+ul.Menu li a{
+    text-decoration: none; 
+    color: white;
+}
+.MenuBar{
+    font-size: 24px;
+}
