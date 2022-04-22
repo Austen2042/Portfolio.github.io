@@ -11,5 +11,6 @@ ul.Menu li a{
     color: white;
 }
 .MenuBar{
-    font-size: 24px;
+    font-size: 24px; 
+background-color: blue;
 }
