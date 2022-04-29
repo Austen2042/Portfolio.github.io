@@ -39,4 +39,26 @@ h2{
     margin-left: 40%;
     margin-right: 40%;
 }
+btn {
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    padding: 5px;
+    text-decoration: none;
+    border: 2px solid white;
+}
+
+.pfl{
+    height:750px;
+    width:95%;
+    background-color: lightgrey;
+    border: 3px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+
+body{
+    background-color:white
+}
 
