@@ -1,0 +1,14 @@
+.icon{
+    width:100px;
+    height: 100px;
+}
+.Location{
+    font-size: 24px;
+}
+.temp{
+    font-size: 48px;
+    float: left;
+}
+.Weather-Container{
+    background-color: aqua;
+}
