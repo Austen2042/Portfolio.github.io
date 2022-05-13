@@ -1,9 +1,10 @@
 ul.Menu li{
-    float: right; 
-    text-align: center; 
+    float: left;
+    line-height: 100px;
+    text-align:center;
     padding: 10px; 
-    margin-bottom: 15px; 
     margin-left: 10px;
+
 }
 ul.Menu li a{
     text-decoration: none; 
@@ -11,8 +12,10 @@ ul.Menu li a{
 }
 
 .MenuBar{
+    margin-left: 18%;
     font-size: 24px; 
     height: 47px;
+
 }
 
 ul.Menu li a:hover{
@@ -31,6 +34,7 @@ h22{
 }
 .AboutMe{
     font-size: 24px;
+
 
 }
 .self{
@@ -67,10 +71,24 @@ body{
 .introduction{
     margin-left: 10%;
 }
-
 .introduction p{
     margin-top: 0px; 
     margin-bottom: 10px;
 }
+CTA{
+    font-size: 30px;
+    padding: 10px;
+    color:#00d5ff;
+    text-align: center;
+    border: 5px solid #00d5ff;
+    border-radius: 50px;
+}
+
+CTA:hover{
+    font-size: 40px;
+    padding: 15px;
+    color:#00d5ff;
+}
+
 
 
