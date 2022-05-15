@@ -6,6 +6,7 @@ ul.Menu li{
     margin-left: 10px;
 
 }
+
 ul.Menu li a{
     text-decoration: none; 
     color: #00d5ff;
@@ -88,6 +89,56 @@ CTA:hover{
     font-size: 40px;
     padding: 15px;
     color:#00d5ff;
+}
+
+
+/*-------------Contact Form------------------*/
+.container{
+    margin-left: 25%;
+}
+
+.container ul li{
+    margin-bottom: 10px;
+}
+input[name = fName]{
+    border: 2px solid black;
+    width: 500px;
+    height: 40px;
+    padding: 10px;
+}
+input[name = lName]{
+    border: 2px solid black;
+    width: 500px;
+    height: 40px;
+    padding: 10px;
+}
+input[name = email]{
+    border: 2px solid black;
+    width: 500px;
+    height: 40px;
+    padding: 10px;
+}
+input[name = Phone]{
+    border: 2px solid black;
+    width: 500px;
+    height: 40px;
+    padding: 10px;
+}
+textarea[name= Message]{
+    border: 2px solid black;
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+}
+button[name= submit]{
+    width: 100px;
+    height: 50px;
+    font-size: 24px;
+    background-color: #00d5ff;
+    border: 2px solid black;
+}
+button[name= submit]:hover{
+    cursor: pointer;
 }
 
 

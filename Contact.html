@@ -14,13 +14,23 @@
                 <li><a  href="index.html"> <img src="Pictures/Austen-Logo.png" alt="Logo" onmouseover="this.src='Pictures/Austen-LogoHL.png';"  onmouseleave="this.src='Pictures/Austen-Logo.png';" style="height: 100px;"></a></li>                
                 <li><a href="Portfolio.html">Portfolio</a></li>
                 <li><a href="Contact.html">Contact</a></li>
-        
             </ul>
         
         </div>
 
-        <div class="Info" style="margin-top: 100px;">
-you can reach me at Contact@austenpking.com
+        <div class="container">
+            <h1 style="margin-left: 25%;">Contact Me</h1>
+            <form action="https://formsubmit.co/contact@austenpking.com" method="POST" >
+                <ul>
+                <li type="none"><input type="text" name="fName" placeholder="First Name" required></li>
+                <li type="none"><input type="text" name="lName" placeholder="Last Name" required></li>
+                <li type="none"><input type="text" name="email" placeholder="Email" required></li>
+                <li type="none"><input type="text" name="Phone" placeholder="(xxx)xxx-xxxx" required></li>
+                <li type="none"><textarea name="Message" placeholder="Message" required></textarea></li>
+                <li type="none"><button type="submit" name="submit">Send</button></li>
+                </ul>
+
+            </form>
         </div>
     </body>
 </html>
