@@ -4,8 +4,9 @@ ul.Menu li{
     text-align:center;
     padding: 10px; 
     margin-left: 10px;
-
-
+}
+ul{
+    margin: 0%;
 }
 
 ul.Menu li a{
@@ -16,13 +17,21 @@ ul.Menu li a{
 .MenuBar{
     margin-left: 18%;
     font-size: 24px; 
-    height: 47px;
-
-
+    height: 120px;
+    overflow: hidden;
 }
 
 ul.Menu li a:hover{
     color: #e41376;
+}
+/*----------Service Page----------*/
+.service{
+    width: 500px;
+    height: 300px;
+    border: 2px solid #00d5ff;
+    padding: 10px;
+    margin-bottom: 20px;
+    
 }
 
 h2{
@@ -63,6 +72,7 @@ btn {
     border: 3px solid #e41376;
     padding: 10px;
     margin-bottom: 10px;
+    overflow: hidden;
     
 }
 
