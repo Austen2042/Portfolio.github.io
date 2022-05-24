@@ -1,13 +1,14 @@
-body{
-    background-color: white;
-    color: black;
+body {
+    background: url(Pictures/BarrelBKRND.jpg);
+    color: white;
+    
 }
 header{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #cac6c6;
+    background-color: black;
     box-shadow: 0 1px 4px #1A6C7A;
     z-index: 100;
 
@@ -44,7 +45,7 @@ img{
     width: 100%;
 }
 section{
-    padding: 5rem 0 3rem;
+    padding: 7.5rem 0 3rem;
 
 }
 .cart{
@@ -67,6 +68,7 @@ section{
     font-size: 1.5rem;
     font-weight: 600;
     margin-top: 2rem;
+    color: black;
 }
 .cartBox{
     display: grid;
@@ -88,9 +90,11 @@ section{
 .cartProductTitle{
     font-size: 1.5rem;
     text-transform: uppercase;
+    color: black;
 }
 .cartPrice{
     font-weight: 500;
+    color: black;
 }
 .cartQuanity{
     border: 1px solid black;
@@ -109,6 +113,7 @@ section{
     justify-content: flex-end;
     margin-top: 1.5rem;
     border-top: 1px solid black;
+    color: black;
 }
 .totalTitle{
     font-family: 'Italiana', serif;
@@ -153,6 +158,7 @@ section{
 }
 .shop{
     margin-top: 2rem;
+
 }
 .shopContent{
     display: grid;
@@ -160,19 +166,19 @@ section{
     gap: 1.5rem;
     margin-right: 0;
     transition: 0.3s;
-    
 }
+
 .shopContent.active{
     margin-right: 45%;
 }
 .productBox{
     position: relative;
 }
-.productBox:hover{
-    padding: 10px;
-    border: 1.5px solid #C00202;
-    transition: 0.4s;
-}
+    .productBox:hover {
+        padding: 10px;
+        border: 1.5px solid #1A6C7A;
+        transition: 0.4s;
+    }
 .productImg{
     width: 100%;
     height: auto;

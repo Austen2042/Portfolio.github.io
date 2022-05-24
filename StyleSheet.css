@@ -5,6 +5,9 @@ ul.Menu li{
     padding: 10px; 
     margin-left: 10px;
 }
+body {
+    background: url(Pictures/BarrelBKRND.jpg)
+}
 ul{
     margin: 0%;
 }

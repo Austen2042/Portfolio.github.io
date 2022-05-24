@@ -4,16 +4,14 @@ console.log("shopScript.js is Active");
 let cartIcon = document.querySelector('#cartIcon');
 let cart = document.querySelector(".cart");
 let closeCart = document.querySelector("#closeCart");
-let shopContent = document.querySelector(".shopContent");
+
 
 cartIcon.onclick = function(){
     cart.classList.add("active");
-    shopContent.classList.add("active");
 };
 
 closeCart.onclick = function(){
     cart.classList.remove("active");
-    shopContent.classList.remove("active");
 };
 
 //cart working
