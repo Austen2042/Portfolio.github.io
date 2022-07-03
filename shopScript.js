@@ -130,7 +130,46 @@ function updateTotal(){
         total = Math.round(total * 100 ) / 100;
 
         document.getElementsByClassName('totalPrice')[0].innerText = "$" + total;
+
+        updateTax();
+
     
 }
+
+function updateTax(){
+    var cartContent = document.getElementsByClassName('cartContent')[0];
+    var cartBoxes = cartContent.getElementsByClassName('cartBox');
+    var total = 0;
+    for(var i =0; i < cartBoxes.length; i++){
+        var cartBox = cartBoxes[i];
+        var priceElement = cartBox.getElementsByClassName('cartPrice')[0];
+        var price = parseFloat(priceElement.innerText.replace("$",""));
+        var quantityElement = cartBox.getElementsByClassName('cartQuanity')[0];
+        var quanity = quantityElement.value;
+        total = total + (price * quanity);
+    }
+        total = Math.round(total * 100 ) / 100;
+
+        document.getElementsByClassName('taxPrice')[0].innerText = "$" + (total * 0.085).toFixed(2);
+
+        updateFinal();
+}
+function updateFinal(){
+    var cartContent = document.getElementsByClassName('cartContent')[0];
+    var cartBoxes = cartContent.getElementsByClassName('cartBox');
+    var total = 0;
+    for(var i =0; i < cartBoxes.length; i++){
+        var cartBox = cartBoxes[i];
+        var priceElement = cartBox.getElementsByClassName('cartPrice')[0];
+        var price = parseFloat(priceElement.innerText.replace("$",""));
+        var quantityElement = cartBox.getElementsByClassName('cartQuanity')[0];
+        var quanity = quantityElement.value;
+        total = total + (price * quanity);
+    }
+        total = Math.round(total * 100 ) / 100;
+
+        document.getElementsByClassName('finalPrice')[0].innerText = "$" + (Math.round(total * 0.085) + total + 4.99).toFixed(2);
+}
+
 
 

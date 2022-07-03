@@ -104,6 +104,43 @@ section{
 .totalPrice{
     margin-left: 0.5rem;
 }
+.shipping{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+}
+.shippingTitle{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.shippingPrice{
+    margin-left: 0.5rem;
+}
+.tax{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+}
+.taxTitle{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.taxPrice{
+    margin-left: 0.5rem;
+}
+.final{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+}
+.finalTitle{
+    font-size: 24px;
+    font-weight: 600;
+}
+.finalPrice{
+    font-size: 24px;
+    margin-left: 0.5rem;
+}
 .buyButton{
 display: flex;
 margin: 1.5rem auto 0 auto;

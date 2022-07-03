@@ -5,6 +5,44 @@ ul.Menu li{
     padding: 10px; 
     margin-left: 10px;
 }
+.links{
+    float: left;
+}
+#linkLogos{
+    font-size: 36px;
+    padding-bottom: 50px;
+    color: rgba(143, 141, 141, 0.521);
+}
+#linkLogos:hover{
+    cursor: pointer;
+    color: #00d5ff;
+}
+.callToAction{
+    position: absolute;
+    right:
+     50px;
+    top: 250px;
+    float: right;
+    width: 300px;
+    height: 400px;
+    background: #101b37;
+}
+#CTAt{
+    font-size: 48px;
+    color: #00d5ff;
+    text-align: center;
+    margin-bottom: 5px;
+
+}
+#FiverrBTN{
+    position: absolute;
+    top: 50px;
+    width: 300px;
+    height: 300px;
+}
+#FiverrBTN:hover{
+    cursor: pointer;
+}
 body {
     background: #101b37;
 }
@@ -101,27 +139,27 @@ CTA{
 }
 
 CTA:hover{
-    font-size: 40px;
-    padding: 15px;
-    color:#00d5ff;
+border: 5px solid #e41376;
+color: #e41376;
 }
 
 
 /*-------------Contact Form------------------*/
 .container{
-    margin-left: 35%;
+    margin-left: 25%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .container ul li{
     margin-bottom: 10px;
 }
-input[name = fName]{
+input[name = first_Name]{
     border: 2px solid black;
     width: 500px;
     height: 40px;
     padding: 10px;
 }
-input[name = lName]{
+input[name = last_Name]{
     border: 2px solid black;
     width: 500px;
     height: 40px;
@@ -140,6 +178,7 @@ input[name = Phone]{
     padding: 10px;
 }
 textarea[name= Message]{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border: 2px solid black;
     width: 500px;
     height: 300px;
@@ -147,12 +186,14 @@ textarea[name= Message]{
 }
 button[name= submit]{
     width: 100px;
-    height: 20px;
+    height: 35px;
     font-size: 24px;
     background-color: #00d5ff;
     border: 2px solid black;
+    border-radius: 25px;
 }
 button[name= submit]:hover{
+    border: 2px solid #e41376;
     cursor: pointer;
 }
 
