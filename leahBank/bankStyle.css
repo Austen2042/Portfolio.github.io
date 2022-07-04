@@ -1,0 +1,75 @@
+.header{
+    text-align: center;
+    margin-left: 0%;
+    font-size: 48px;
+}
+.act1{
+    background: rgb(220, 218, 218);
+    margin-left: 23%;
+    width: 50%;
+    height: 100px;
+    border: pink solid 2px;
+    margin-top: 25px;
+    box-shadow: 3px 3px rgb(173, 126, 133);
+}
+
+#actName{
+    left: 15%;
+    top: 25px;
+    text-align: left;
+    font-size: 36px;
+    float: left;
+    position: relative;
+    padding: 5px
+}
+#ammount{
+    background: rgba(255, 192, 203, 0.57);
+    right: 15%;
+    top: 25px;
+    float: right;
+    font-size: 36px;
+    text-align: left;
+    border: 2px solid rgb(155, 115, 122);
+    position: relative;
+    padding: 5px;
+    }
+.statement{
+    margin-top: 10px;
+}
+#sHeading{
+    margin-left: 23%;
+    width: 50%;
+    text-align: center;
+    font-size: 36px;
+    border-bottom: solid 1px black;
+}
+#sStatemnt{
+
+    border: 2px solid rgb(155, 115, 122);
+    background-color: rgb(220, 218, 218);
+    height: 350px;
+    width: 50%;
+    margin-left: 23%;
+    padding-top: 15px;
+
+
+    
+}
+#sItem{
+    font-size: 24px;
+    margin-left: 10%;  
+    float: left;
+    text-align: left;
+
+}
+ol li{
+    padding-top: 10px;
+}
+ul li{
+    padding-top: 10px
+}
+#sCost{
+    float: right;
+    font-size: 24px;
+    margin-right: 10%;
+}
