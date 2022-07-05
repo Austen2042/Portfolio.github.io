@@ -5,6 +5,17 @@
         <link rel="stylesheet" href="bankStyle.css">
     </head>
     <body>
+        <div class="dropdown">
+            <div id="Manager">
+            Manager
+            </div>
+        </div>
+        <div class="mMenu">
+            <input type="text" placeholder="Purchase" id="pForm">
+            <input type="text" placeholder="ammount" id="aForm">
+            <input type="button" value="Submit" id="bForm">
+            <input type="button" value="Close Manager" id="closeM">
+        </div>
         <div class="header">
             <div id="bankName">
                 Bank of Princesses
@@ -16,7 +27,7 @@
                 Leah S. King
             </div>
             <div id="ammount">
-                $2
+                $3
             </div>
 
         </div>
@@ -27,22 +38,19 @@
             <div id="sStatemnt">
 
                 <div id="sItem">
-                    <ol>
-                       <li>Menchies</li>
-                       <li>HEB - Candy</li>
-                       <li>Menchies</li>
+                    <ol id="itemList">
+
                     </ol>
                 </div>
 
                 <div id="sCost">
-                    <ul type="none">
-                        <li>-$5</li>
-                        <li>-$2</li>
-                        <li>-$5</li>
+                    <ul type="none" id="costList">
+
                      </ul>
                 </div>
             </div>
 
         </div>
+        <script src="Functions.js"></script>
     </body>
 </html>
